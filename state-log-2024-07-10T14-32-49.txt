@@ -1,0 +1,1027 @@
+======================================================
+Application State
+======================================================
+
+------------------------------------------------
+App Version
+------------------------------------------------
+
+"24.11.1 (20666)"
+
+------------------------------------------------
+Platform Information
+------------------------------------------------
+
+{
+  Name: "iPhone",
+  Brand: "Apple",
+  Manufacturer: "Apple",
+  Model: "iPhone 11",
+  Year Class: 2019,
+  OS Name: "iOS",
+  OS Version: "17.5.1",
+  API Level (android): null,
+  Memory Total: 4034985984
+}
+
+------------------------------------------------
+Display Language
+------------------------------------------------
+
+"English"
+
+------------------------------------------------
+Device Id
+------------------------------------------------
+
+"b4f63ca2-9b78-4604-baa1-3386a36853c5"
+
+------------------------------------------------
+All Accounts
+------------------------------------------------
+
+[
+  {
+    name: "KAU",
+    icon: undefined,
+    balance: {
+      timestamp: 1720615357869,
+      value: 0
+    },
+    identifier: "73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "3VwNHMfemRMBzkGyDdsUyMUjmjzE3F2XvCbRwJmN5Pvc"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x85De101e33d39fBaf2B89ad518d603503bd0be8D"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x85De101e33d39fBaf2B89ad518d603503bd0be8D"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 166,
+          2: 82,
+          3: 242,
+          4: 93,
+          5: 25,
+          6: 224,
+          7: 82,
+          8: 105,
+          9: 168,
+          10: 34,
+          11: 84,
+          12: 59,
+          13: 247,
+          14: 211,
+          15: 82,
+          16: 192,
+          17: 158,
+          18: 117,
+          19: 214,
+          20: 10,
+          21: 79,
+          22: 86,
+          23: 201,
+          24: 224,
+          25: 107,
+          26: 21,
+          27: 30,
+          28: 173,
+          29: 237,
+          30: 42,
+          31: 111,
+          32: 184
+        },
+        address: "bc1qxfqh7xkpzjw0wpymnuznjgkz5hun320fcp0lxk"
+      }
+],
+    type: "seed",
+    rootID: "589fbb29eb4b0cac836ece4056c258866a03b6f64ff96085e810b19ea99a3360",
+    isReadOnly: false
+  }, 
+  {
+    name: "KAU",
+    icon: undefined,
+    balance: {
+      timestamp: 1720617915364,
+      value: 0
+    },
+    identifier: "1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb",
+    addresses: [
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x47ABecC4CcC69f31271BBc22008B673189b49a1a"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x47ABecC4CcC69f31271BBc22008B673189b49a1a"
+      }
+],
+    type: "privateKey",
+    isReadOnly: false
+  }, 
+  {
+    name: "Account 3",
+    icon: undefined,
+    balance: {
+      timestamp: 1720618053366,
+      value: 0
+    },
+    identifier: "7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "Ek61M85BYHA78nWeTDvS2rAxCrM6WHcrS6k7iHcjCZ41"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0xa499d465682113e36425E7C63228b6F6dE3c3f57"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0xa499d465682113e36425E7C63228b6F6dE3c3f57"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 214,
+          2: 23,
+          3: 210,
+          4: 44,
+          5: 22,
+          6: 223,
+          7: 22,
+          8: 63,
+          9: 87,
+          10: 99,
+          11: 249,
+          12: 180,
+          13: 42,
+          14: 225,
+          15: 234,
+          16: 76,
+          17: 25,
+          18: 175,
+          19: 99,
+          20: 45,
+          21: 203,
+          22: 105,
+          23: 248,
+          24: 187,
+          25: 157,
+          26: 237,
+          27: 138,
+          28: 220,
+          29: 156,
+          30: 84,
+          31: 133,
+          32: 155
+        },
+        address: "bc1qdsq4dvnkdj80k8rxhvaxau09fl2pwr76cgqvkc"
+      }
+],
+    type: "seed",
+    rootID: "fa4e59945635a005c96465bd4b269a86960c17659f213b91f2ac210208033bbf",
+    isReadOnly: false
+  }, 
+  {
+    name: "bitcoin",
+    icon: {
+      type: "read-only-default"
+    },
+    balance: undefined,
+    identifier: "c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3",
+    addresses: [
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        address: "bc1qv3d25037sh2ltkutt95uea3lvmgqpn5t5qy42f"
+      }
+],
+    type: "readOnly",
+    isReadOnly: true
+  }, 
+  {
+    name: "Account 5",
+    icon: undefined,
+    balance: {
+      timestamp: 1720618353363,
+      value: 0
+    },
+    identifier: "5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "G7BB9FNrcADMKgerYReYAZwXe7abQmwSND48kGoSJPBv"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0x367d5F933C9afE17DA7222F6d209bd8C322f2580"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0x367d5F933C9afE17DA7222F6d209bd8C322f2580"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 104,
+          2: 92,
+          3: 198,
+          4: 41,
+          5: 165,
+          6: 228,
+          7: 189,
+          8: 230,
+          9: 208,
+          10: 50,
+          11: 212,
+          12: 118,
+          13: 239,
+          14: 20,
+          15: 21,
+          16: 240,
+          17: 122,
+          18: 174,
+          19: 173,
+          20: 37,
+          21: 30,
+          22: 42,
+          23: 204,
+          24: 226,
+          25: 144,
+          26: 101,
+          27: 183,
+          28: 81,
+          29: 153,
+          30: 152,
+          31: 139,
+          32: 243
+        },
+        address: "bc1qsyhfcdml92r77xqu2uqeyujaek3wlpggq28xyc"
+      }
+],
+    type: "seed",
+    rootID: "3ef50c537a221e5de8049fe6c0bfcdcb3dade95bf7a4bbf9443604f76b9f4b36",
+    isReadOnly: false
+  }
+]
+
+------------------------------------------------
+Selected Account
+------------------------------------------------
+
+{
+  name: "KAU",
+  icon: undefined,
+  balance: {
+    timestamp: 1720615357869,
+    value: 0
+  },
+  identifier: "73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209",
+  addresses: [
+    {
+      networkID: "solana:101",
+      addressType: "solana",
+      address: "3VwNHMfemRMBzkGyDdsUyMUjmjzE3F2XvCbRwJmN5Pvc"
+    }, 
+    {
+      networkID: "eip155:1",
+      addressType: "eip155",
+      address: "0x85De101e33d39fBaf2B89ad518d603503bd0be8D"
+    }, 
+    {
+      networkID: "eip155:137",
+      addressType: "eip155",
+      address: "0x85De101e33d39fBaf2B89ad518d603503bd0be8D"
+    }, 
+    {
+      networkID: "bip122:000000000019d6689c085ae165831e93",
+      addressType: "bip122_p2wpkh",
+      publicKey: {
+        0: 3,
+        1: 166,
+        2: 82,
+        3: 242,
+        4: 93,
+        5: 25,
+        6: 224,
+        7: 82,
+        8: 105,
+        9: 168,
+        10: 34,
+        11: 84,
+        12: 59,
+        13: 247,
+        14: 211,
+        15: 82,
+        16: 192,
+        17: 158,
+        18: 117,
+        19: 214,
+        20: 10,
+        21: 79,
+        22: 86,
+        23: 201,
+        24: 224,
+        25: 107,
+        26: 21,
+        27: 30,
+        28: 173,
+        29: 237,
+        30: 42,
+        31: 111,
+        32: 184
+      },
+      address: "bc1qxfqh7xkpzjw0wpymnuznjgkz5hun320fcp0lxk"
+    }
+],
+  type: "seed",
+  rootID: "589fbb29eb4b0cac836ece4056c258866a03b6f64ff96085e810b19ea99a3360",
+  isReadOnly: false
+}
+
+------------------------------------------------
+Selected Networks
+------------------------------------------------
+
+["Solana", "Ethereum", "Polygon", "Bitcoin"]
+
+------------------------------------------------
+Analytics Opt Out
+------------------------------------------------
+
+false
+
+------------------------------------------------
+Preferred Explorers
+------------------------------------------------
+
+{
+  version: 1,
+  explorers: {
+    Solana: "solscan",
+    Solana Testnet: "solscan",
+    Solana Devnet: "solscan",
+    Solana Localnet: undefined,
+    Ethereum: "etherscan",
+    Ethereum Sepolia: "etherscan",
+    Polygon: "polygonscan",
+    Polygon Amoy: "polygonscan",
+    Bitcoin: "mempool",
+    Bitcoin Testnet: "mempool"
+  }
+}
+
+------------------------------------------------
+Trusted Apps
+------------------------------------------------
+
+{
+  version: 1,
+  apps: {}
+}
+
+------------------------------------------------
+Browser State
+------------------------------------------------
+
+{
+  activeTabIndex: null,
+  tabs: []
+}
+
+------------------------------------------------
+Async Storage
+------------------------------------------------
+
+{
+  onboardingDone: "done"
+}
+
+------------------------------------------------
+Async Simple Storage
+------------------------------------------------
+
+{
+  latestCleanedStorageVersion: "24.11.1",
+  userExplorerPreferenceV2: {
+    version: 1,
+    explorers: {
+      solana:101: "solscan",
+      solana:102: "solscan",
+      solana:103: "solscan",
+      eip155:1: "etherscan",
+      eip155:11155111: "etherscan",
+      eip155:137: "polygonscan",
+      eip155:80002: "polygonscan",
+      bip122:000000000019d6689c085ae165831e93: "mempool",
+      bip122:000000000933ea01ad0ee984209779ba: "mempool"
+    }
+  },
+  .phantom-labs.account.accountMetadata: {
+    version: 1,
+    accounts: {
+      73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209: {
+        name: "KAU",
+        balance: {
+          timestamp: 1720615357869,
+          value: 0
+        }
+      },
+      1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb: {
+        name: "KAU",
+        balance: {
+          timestamp: 1720617915364,
+          value: 0
+        }
+      },
+      7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d: {
+        name: "Account 3",
+        balance: {
+          timestamp: 1720618053366,
+          value: 0
+        }
+      },
+      c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3: {
+        name: "bitcoin",
+        icon: {
+          type: "read-only-default"
+        }
+      },
+      5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c: {
+        name: "Account 5",
+        balance: {
+          timestamp: 1720618353363,
+          value: 0
+        }
+      }
+    }
+  },
+  developerMode: {
+    version: 1,
+    isDeveloperMode: false
+  },
+  networkSetting: {
+    version: 1,
+    setting: {
+      solana: "solana:103",
+      eip155: "eip155:11155111"
+    }
+  },
+  .phantom-labs.account.selectedAccount: {
+    version: 2,
+    identifier: "73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209"
+  },
+  termsHaveBeenAcknowledged2: true,
+  firstTimeOnboarding: {
+    isFirstTimeOnboarding: false
+  },
+  .phantom-labs.settings.interstitials: {
+    version: 1,
+    interstitialsSeen: {
+      HelloBitcoin: 1
+    }
+  },
+  .phantom-labs.vault.accounts: {
+    version: 1,
+    accounts: [
+      {
+        version: 1,
+        type: "seed",
+        identifier: "73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209",
+        rootID: "589fbb29eb4b0cac836ece4056c258866a03b6f64ff96085e810b19ea99a3360",
+        derivationIndex: 0,
+        chains: {
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "3VwNHMfemRMBzkGyDdsUyMUjmjzE3F2XvCbRwJmN5Pvc"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x85De101e33d39fBaf2B89ad518d603503bd0be8D"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 93, 121, 8, 204, 110, 73, 44, 78, 141, 186, 189, 228, 130, 114, 189, 72, 193, 28, 238, 18, 88, 242, 140, 74, 112, 128, 17, 136, 172, 183, 197, 157]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pkqgrdlstcac889l3vuwtpnh7zth2pkn3hazr2c7w5r7s75n8s6yqkc8kjr",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pkqgrdlstcac889l3vuwtpnh7zth2pkn3hazr2c7w5r7s75n8s6yqps3egv"
+            }
+          },
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 166, 82, 242, 93, 25, 224, 82, 105, 168, 34, 84, 59, 247, 211, 82, 192, 158, 117, 214, 10, 79, 86, 201, 224, 107, 21, 30, 173, 237, 42, 111, 184]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qxfqh7xkpzjw0wpymnuznjgkz5hun320fcp0lxk",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qxfqh7xkpzjw0wpymnuznjgkz5hun320fj85va9"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "privateKey",
+        identifier: "1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb",
+        privateKeyIdentifier: "1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb",
+        publicKey: "0x47ABecC4CcC69f31271BBc22008B673189b49a1a",
+        chainType: "eip155"
+      }, 
+      {
+        version: 1,
+        type: "seed",
+        identifier: "7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d",
+        rootID: "fa4e59945635a005c96465bd4b269a86960c17659f213b91f2ac210208033bbf",
+        derivationIndex: 0,
+        chains: {
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "Ek61M85BYHA78nWeTDvS2rAxCrM6WHcrS6k7iHcjCZ41"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0xa499d465682113e36425E7C63228b6F6dE3c3f57"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 65, 173, 238, 102, 30, 103, 134, 67, 181, 124, 163, 54, 91, 183, 10, 138, 115, 2, 128, 176, 240, 120, 153, 29, 98, 231, 34, 9, 117, 173, 197, 90]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pp8xztu2mffgae0kywpa4c5wg5nfpq8yp8686ggnk2n9pnrff8n0sfxdq06",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pp8xztu2mffgae0kywpa4c5wg5nfpq8yp8686ggnk2n9pnrff8n0s7wm044"
+            }
+          },
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 214, 23, 210, 44, 22, 223, 22, 63, 87, 99, 249, 180, 42, 225, 234, 76, 25, 175, 99, 45, 203, 105, 248, 187, 157, 237, 138, 220, 156, 84, 133, 155]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qdsq4dvnkdj80k8rxhvaxau09fl2pwr76cgqvkc",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qdsq4dvnkdj80k8rxhvaxau09fl2pwr76jwmldt"
+            }
+          }
+        }
+      }, 
+      {
+        version: 1,
+        type: "readOnly",
+        identifier: "c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3",
+        addresses: {
+          bip122_p2wpkh: "bc1qv3d25037sh2ltkutt95uea3lvmgqpn5t5qy42f"
+        }
+      }, 
+      {
+        version: 1,
+        type: "seed",
+        identifier: "5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c",
+        rootID: "3ef50c537a221e5de8049fe6c0bfcdcb3dade95bf7a4bbf9443604f76b9f4b36",
+        derivationIndex: 0,
+        chains: {
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "G7BB9FNrcADMKgerYReYAZwXe7abQmwSND48kGoSJPBv"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0x367d5F933C9afE17DA7222F6d209bd8C322f2580"
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 56, 156, 97, 13, 130, 129, 216, 187, 154, 13, 125, 94, 112, 246, 41, 101, 238, 198, 231, 153, 31, 129, 235, 218, 10, 156, 35, 165, 6, 139, 213, 168]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pcacf5h788nqekeszjexhz39yar6p6vusvu9r3wn4s3uh5lg2q5ts2pdv0t",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pcacf5h788nqekeszjexhz39yar6p6vusvu9r3wn4s3uh5lg2q5tsafmr4y"
+            }
+          },
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 104, 92, 198, 41, 165, 228, 189, 230, 208, 50, 212, 118, 239, 20, 21, 240, 122, 174, 173, 37, 30, 42, 204, 226, 144, 101, 183, 81, 153, 152, 139, 243]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1qsyhfcdml92r77xqu2uqeyujaek3wlpggq28xyc",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1qsyhfcdml92r77xqu2uqeyujaek3wlpgg2vu4lt"
+            }
+          }
+        }
+      }
+]
+  },
+  lastSeenPushNotificationPopupTimestamp: 1720615358030
+}
+
+======================================================
+Application Logs
+======================================================
+
+2024-07-10T12:40:47.498Z [INFO]  App Startup: Initializing deviceId.
+2024-07-10T12:40:47.506Z [INFO]  App Startup: Initializing feature flags.
+2024-07-10T12:40:47.856Z [INFO]  App Startup: Checking if onboarding is done.
+2024-07-10T12:40:47.864Z [INFO]  App Startup: ✅ Onboarding not yet complete. Showing onboarding.
+2024-07-10T12:40:47.866Z [INFO]  generic: App Startup duration: 423 ms
+2024-07-10T12:40:51.653Z [INFO]  generic: Visited screen: OnboardingProtect
+2024-07-10T12:40:57.012Z [INFO]  generic: Visited screen: OnboardingImportOptions
+2024-07-10T12:41:06.041Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T12:41:06.059Z [INFO]  account: Finished fetching all accounts. Num accounts: 0
+2024-07-10T12:41:07.909Z [INFO]  generic: Visited screen: OnboardingImportOptions
+2024-07-10T12:41:08.646Z [INFO]  generic: Visited screen: OnboardingImportRecoveryPhrase
+2024-07-10T12:42:28.172Z [INFO]  generic: Visited screen: OnboardingImportMultiChainAccounts
+2024-07-10T12:42:33.288Z [INFO]  account: Adding Multichain Account Metadata Batch: 1 entries
+2024-07-10T12:42:34.248Z [INFO]  generic: Visited screen: OnboardingDone
+2024-07-10T12:42:37.158Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:42:37.211Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-07-10T12:42:37.298Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T12:42:37.706Z [INFO]  generic: Visited screen: Modals
+2024-07-10T12:42:37.872Z [INFO]  account: Setting Multichain Account Balance
+2024-07-10T12:42:37.941Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-07-10T12:42:37.987Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T12:42:39.383Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:42:49.720Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-07-10T12:42:52.012Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:42:54.425Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:42:54.470Z [INFO]  settings: Setting Preferred Explorer default value in new Storage
+2024-07-10T12:43:00.561Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T12:43:00.705Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:43:06.465Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:43:46.939Z [INFO]  generic: Visited screen: FiatRampForm
+2024-07-10T12:43:49.518Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:43:50.551Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:43:58.596Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:44:01.257Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:44:12.049Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:44:13.768Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:44:14.604Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:44:18.299Z [INFO]  generic: Visited screen: Swap
+2024-07-10T12:44:27.370Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-07-10T12:44:31.739Z [INFO]  generic: Visited screen: Swap
+2024-07-10T12:44:33.697Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-07-10T12:44:36.470Z [INFO]  generic: Visited screen: Swap
+2024-07-10T12:44:41.291Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-07-10T12:44:42.554Z [INFO]  generic: Visited screen: Swap
+2024-07-10T12:44:44.748Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T12:44:44.788Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:44:47.068Z [INFO]  generic: Visited screen: DepositAddress
+2024-07-10T12:44:54.649Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:45:35.414Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:45:37.029Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:45:43.343Z [INFO]  generic: Visited screen: DepositAddress
+2024-07-10T12:46:32.663Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:46:36.299Z [INFO]  generic: Visited screen: StakingMethodSelection
+2024-07-10T12:46:38.851Z [INFO]  generic: Visited screen: MintJitoSOLInfoPage
+2024-07-10T12:46:40.392Z [INFO]  generic: Visited screen: MintLiquidStakeAmountPage
+2024-07-10T12:46:44.526Z [INFO]  generic: Visited screen: StakingMethodSelection
+2024-07-10T12:46:45.635Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:49:30.857Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:49:32.976Z [INFO]  generic: Visited screen: Receive
+2024-07-10T12:49:35.344Z [INFO]  generic: Visited screen: ReceiveQRCode
+2024-07-10T12:50:07.471Z [INFO]  generic: Visited screen: Receive
+2024-07-10T12:50:08.565Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:50:11.478Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:50:16.595Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:50:17.295Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:50:21.859Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:50:23.123Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:50:32.850Z [INFO]  generic: Visited screen: DepositAddress
+2024-07-10T12:50:48.271Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:50:51.461Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:50:53.422Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:50:55.097Z [INFO]  generic: Visited screen: DepositAddress
+2024-07-10T12:51:28.828Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:51:29.962Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:51:30.746Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:51:32.970Z [INFO]  generic: Visited screen: DepositAddress
+2024-07-10T12:54:17.010Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:54:18.623Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T12:54:18.665Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:54:45.278Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:54:55.889Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T12:55:02.737Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:55:07.003Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T12:55:07.044Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T12:55:09.855Z [INFO]  generic: Visited screen: Home
+2024-07-10T12:55:16.285Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T12:55:16.325Z [INFO]  generic: Visited screen: Explore
+2024-07-10T12:55:18.641Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:20:07.404Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:20:27.456Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:20:29.459Z [INFO]  account: Fetching Multichain Account with Identifier
+2024-07-10T13:20:29.460Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:20:30.997Z [INFO]  generic: Visited screen: MultiChainEditAccountName
+2024-07-10T13:20:40.868Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:20:40.872Z [INFO]  account: Renaming Multichain Account
+2024-07-10T13:20:41.027Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-07-10T13:20:41.160Z [INFO]  account: Fetching Multichain Account with Identifier
+2024-07-10T13:20:41.296Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:20:42.139Z [INFO]  generic: Visited screen: Receive
+2024-07-10T13:20:46.046Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:20:47.878Z [INFO]  generic: Visited screen: MultiChainExportSecretWarning
+2024-07-10T13:21:01.317Z [INFO]  generic: Visited screen: MultiChainExportSecretWarning
+2024-07-10T13:21:07.329Z [INFO]  generic: Visited screen: MultiChainExportSecretWarning
+2024-07-10T13:21:08.665Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:24:42.879Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:24:44.231Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:24:56.433Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:24:57.286Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:24:58.733Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:25:00.616Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:25:14.319Z [INFO]  account: Importing Private Key Account
+2024-07-10T13:25:14.348Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:25:14.694Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:14.965Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:15.383Z [INFO]  account: Setting Multichain Account Balance
+2024-07-10T13:25:15.708Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:15.962Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:18.905Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:25:22.825Z [INFO]  generic: Visited screen: MultiChainSecurity
+2024-07-10T13:25:24.807Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:25:26.006Z [INFO]  generic: Visited screen: ChainSelector
+2024-07-10T13:25:30.071Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:30.405Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:30.731Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:31.032Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:31.900Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:25:33.102Z [INFO]  generic: Visited screen: TrustedApps
+2024-07-10T13:25:38.574Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:25:40.596Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:25:41.868Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:42.179Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:43.615Z [INFO]  generic: Visited screen: MultiChainNetworks
+2024-07-10T13:25:46.709Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:25:50.364Z [INFO]  generic: Visited screen: MultiChainNetworks
+2024-07-10T13:25:51.879Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:25:52.046Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:52.338Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:55.165Z [INFO]  generic: Visited screen: MultiChainNetworks
+2024-07-10T13:25:57.542Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:25:57.706Z [INFO]  account: Finished fetching all accounts. Num accounts: 2
+2024-07-10T13:25:57.993Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:25:58.646Z [INFO]  generic: Visited screen: MultiChainNetworks
+2024-07-10T13:26:01.450Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:26:02.106Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:26:04.902Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:26:12.859Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:26:14.397Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:26:14.533Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:26:16.660Z [INFO]  generic: Visited screen: DappBrowserSearchScreen
+2024-07-10T13:26:38.791Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:26:48.798Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:26:49.730Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:27:19.911Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:27:31.604Z [INFO]  account: Adding Multichain Account Metadata Batch: 1 entries
+2024-07-10T13:27:31.893Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:27:32.009Z [INFO]  account: Finished fetching all accounts. Num accounts: 3
+2024-07-10T13:27:32.459Z [INFO]  account: Finished fetching selected account. account.id: 7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d
+2024-07-10T13:27:33.403Z [INFO]  account: Setting Multichain Account Balance
+2024-07-10T13:27:33.419Z [INFO]  account: Finished fetching all accounts. Num accounts: 3
+2024-07-10T13:27:33.829Z [INFO]  account: Finished fetching selected account. account.id: 7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d
+2024-07-10T13:27:34.182Z [INFO]  account: Finished fetching all accounts. Num accounts: 3
+2024-07-10T13:27:34.185Z [INFO]  account: Finished fetching all accounts. Num accounts: 3
+2024-07-10T13:27:34.602Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:27:34.604Z [INFO]  account: Finished fetching selected account. account.id: 7bb68a00eb2519625a581f8a7eb2586dad2766a825f021dbd891de749641e20d
+2024-07-10T13:28:11.379Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:28:15.676Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:28:17.748Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:28:18.629Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:28:22.174Z [ERROR]  generic: Could not find encoding for EVM private key
+2024-07-10T13:28:25.892Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:28:27.719Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:28:28.644Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:30:17.843Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:30:21.097Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:30:22.585Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:30:23.480Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:30:29.446Z [ERROR]  generic: Could not find encoding for Bitcoin private key
+2024-07-10T13:30:33.785Z [ERROR]  generic: Could not find encoding for Bitcoin private key
+2024-07-10T13:30:33.804Z [ERROR]  generic: Could not find encoding for Bitcoin private key
+2024-07-10T13:30:34.230Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:30:36.373Z [INFO]  generic: Visited screen: MultichainAddReadOnlyAccount
+2024-07-10T13:30:38.191Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:30:39.346Z [INFO]  generic: Visited screen: MultichainAddReadOnlyAccount
+2024-07-10T13:30:48.220Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:30:48.546Z [INFO]  account: Finished fetching all accounts. Num accounts: 4
+2024-07-10T13:30:48.950Z [INFO]  account: Finished fetching selected account. account.id: c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3
+2024-07-10T13:30:51.290Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:31:12.451Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:31:16.438Z [ERROR]  generic: Could not find encoding for Solana private key
+2024-07-10T13:31:22.792Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:31:23.788Z [ERROR]  generic: Could not find encoding for Bitcoin private key
+2024-07-10T13:31:23.853Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-07-10T13:31:29.452Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:31:30.167Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:31:32.184Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:31:32.236Z [INFO]  account: Finished fetching selected account. account.id: c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3
+2024-07-10T13:31:36.778Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:31:38.646Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:31:38.696Z [INFO]  account: Finished fetching selected account. account.id: c178e6e50d331b7ae15b0b7544c3fce3a344a1e5364aea0019346ce82d5664d3
+2024-07-10T13:31:41.775Z [INFO]  generic: Tab changed to ActivityTab
+2024-07-10T13:31:41.864Z [INFO]  generic: Visited screen: Activity
+2024-07-10T13:31:46.735Z [INFO]  generic: Visited screen: HistorySpamItems
+2024-07-10T13:31:50.465Z [INFO]  generic: Visited screen: Activity
+2024-07-10T13:31:51.583Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T13:31:51.615Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:31:54.261Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:31:58.325Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:32:31.229Z [INFO]  account: Adding Multichain Account Metadata Batch: 1 entries
+2024-07-10T13:32:31.327Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:32:31.448Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:32:32.324Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:32.682Z [INFO]  account: Finished fetching selected account. account.id: 5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c
+2024-07-10T13:32:33.375Z [INFO]  account: Setting Multichain Account Balance
+2024-07-10T13:32:33.724Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:33.728Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:34.111Z [INFO]  account: Finished fetching selected account. account.id: 5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c
+2024-07-10T13:32:34.531Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:34.874Z [INFO]  account: Finished fetching selected account. account.id: 5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c
+2024-07-10T13:32:40.779Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:32:42.116Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:32:43.232Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-07-10T13:32:45.225Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:45.228Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:32:45.565Z [INFO]  account: Finished fetching selected account. account.id: 5afb7950afb8f716926792144ab6c92bd5c4b4639f169bdc308f779f6bd7f55c
+2024-07-10T13:32:46.745Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:32:48.072Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:32:50.323Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:32:51.177Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:32:56.423Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:32:57.650Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:33:00.431Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:33:01.505Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:33:03.097Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:33:03.841Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:33:04.794Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:33:09.965Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T13:33:14.096Z [INFO]  generic: Tab changed to SwapTab
+2024-07-10T13:33:14.234Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:33:16.402Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-07-10T13:33:19.059Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:33:20.393Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-07-10T13:33:23.666Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:33:25.624Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-07-10T13:33:26.781Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:33:28.387Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T13:33:28.428Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T13:33:32.152Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:33:34.660Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-07-10T13:33:36.775Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:33:43.204Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:33:45.557Z [INFO]  generic: Visited screen: TrustedApps
+2024-07-10T13:39:43.736Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:39:46.227Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2024-07-10T13:39:49.185Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:39:50.806Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:39:53.004Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:39:53.103Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:39:53.344Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:39:57.820Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T13:40:01.744Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:40:03.634Z [INFO]  generic: Visited screen: Receive
+2024-07-10T13:40:06.916Z [INFO]  generic: Visited screen: ReceiveQRCode
+2024-07-10T13:40:11.308Z [INFO]  generic: Visited screen: Receive
+2024-07-10T13:40:11.960Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:40:14.511Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:40:16.955Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-07-10T13:40:18.851Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:40:19.924Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-07-10T13:40:21.375Z [INFO]  generic: Visited screen: MultiChainPreferredBitcoinAddress
+2024-07-10T13:40:24.200Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-07-10T13:40:27.980Z [INFO]  generic: Visited screen: MultiChainPreferredExplorers
+2024-07-10T13:40:35.075Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-07-10T13:40:37.450Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:40:39.568Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-07-10T13:40:40.456Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:40:41.254Z [INFO]  account: Fetching Multichain Account with Identifier
+2024-07-10T13:40:41.254Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:40:45.692Z [INFO]  generic: Visited screen: Receive
+2024-07-10T13:40:47.410Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-07-10T13:40:48.518Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T13:40:49.525Z [INFO]  generic: Visited screen: Home
+2024-07-10T13:46:34.374Z [INFO]  App Startup: Initializing deviceId.
+2024-07-10T13:46:34.378Z [INFO]  App Startup: Initializing feature flags.
+2024-07-10T13:46:34.684Z [INFO]  App Startup: Checking if onboarding is done.
+2024-07-10T13:46:34.700Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2024-07-10T13:46:34.700Z [INFO]  App Startup: Onboarding complete.
+2024-07-10T13:46:34.700Z [INFO]  App Startup: Checking if multi-chain is enabled.
+2024-07-10T13:46:34.709Z [INFO]  App Startup: ✅ Multi-chain enabled. Showing wallet.
+2024-07-10T13:46:34.710Z [INFO]  generic: App Startup duration: 428 ms
+2024-07-10T13:46:35.874Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T13:46:35.991Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T13:46:43.275Z [INFO]  generic: Tab changed to SwapTab
+2024-07-10T13:46:43.368Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:46:44.504Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-07-10T13:46:45.623Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:46:46.976Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-07-10T13:46:49.538Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:46:51.176Z [INFO]  generic: Tab changed to ActivityTab
+2024-07-10T13:46:51.253Z [INFO]  generic: Visited screen: Activity
+2024-07-10T13:46:53.784Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T13:46:53.969Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:46:59.644Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:47:06.175Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-07-10T13:47:06.258Z [INFO]  generic: Visited screen: YourCollectibles
+2024-07-10T13:47:07.825Z [INFO]  generic: Tab changed to SwapTab
+2024-07-10T13:47:07.865Z [INFO]  generic: Visited screen: Swap
+2024-07-10T13:47:10.800Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T13:47:10.841Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:47:11.698Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:47:56.308Z [INFO]  generic: Visited screen: DappBrowserSearchScreen
+2024-07-10T13:48:19.366Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:48:30.582Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:48:32.346Z [INFO]  generic: Visited screen: PublicFungibleDetail
+2024-07-10T13:48:38.075Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:48:46.407Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:48:48.020Z [INFO]  generic: Visited screen: Explore
+2024-07-10T13:48:48.311Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T13:48:51.577Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T13:48:53.046Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:48:56.486Z [INFO]  generic: Visited screen: MultichainAddReadOnlyAccount
+2024-07-10T13:49:42.071Z [INFO]  generic: Visited screen: SelectChain
+2024-07-10T13:49:42.986Z [INFO]  generic: Visited screen: MultichainAddReadOnlyAccount
+2024-07-10T13:50:26.750Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:50:29.923Z [INFO]  generic: Visited screen: MultiChainCreateAccountName
+2024-07-10T13:50:32.454Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-07-10T13:50:34.726Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T14:00:14.192Z [INFO]  App Startup: Initializing deviceId.
+2024-07-10T14:00:14.196Z [INFO]  App Startup: Initializing feature flags.
+2024-07-10T14:00:14.425Z [INFO]  App Startup: Checking if onboarding is done.
+2024-07-10T14:00:14.431Z [INFO]  App Startup: Onboarding result: safely-onboarded
+2024-07-10T14:00:14.432Z [INFO]  App Startup: Onboarding complete.
+2024-07-10T14:00:14.432Z [INFO]  App Startup: Checking if multi-chain is enabled.
+2024-07-10T14:00:14.439Z [INFO]  App Startup: ✅ Multi-chain enabled. Showing wallet.
+2024-07-10T14:00:14.440Z [INFO]  generic: App Startup duration: 344 ms
+2024-07-10T14:00:15.645Z [INFO]  account: Finished fetching all accounts. Num accounts: 5
+2024-07-10T14:00:15.778Z [INFO]  account: Finished fetching selected account. account.id: 1c225eafbabd1cfdc546dcc8c2518b73bb658e4f9fe1053e2b9d7b72d5fb5ddb
+2024-07-10T14:00:20.915Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T14:00:22.588Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:00:27.568Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T14:00:29.051Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-07-10T14:00:30.239Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T14:00:30.317Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:00:30.332Z [INFO]  account: Finished fetching selected account. account.id: 73c9455dfb8d3e558fab7055533d92fd3a69c5a471ad6c5e5bb611a22b949209
+2024-07-10T14:00:31.750Z [INFO]  generic: Visited screen: Receive
+2024-07-10T14:32:04.845Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:32:07.080Z [INFO]  generic: Tab changed to ExploreTab
+2024-07-10T14:32:07.305Z [INFO]  generic: Visited screen: Explore
+2024-07-10T14:32:11.379Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-07-10T14:32:11.461Z [INFO]  generic: Visited screen: YourCollectibles
+2024-07-10T14:32:12.705Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T14:32:12.729Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:32:14.385Z [INFO]  generic: Visited screen: FungibleDetail
+2024-07-10T14:32:25.125Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:32:29.199Z [INFO]  generic: Tab changed to SwapTab
+2024-07-10T14:32:29.342Z [INFO]  generic: Visited screen: Swap
+2024-07-10T14:32:30.445Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-07-10T14:32:32.462Z [INFO]  generic: Visited screen: Swap
+2024-07-10T14:32:35.090Z [INFO]  generic: Tab changed to HomeTab
+2024-07-10T14:32:35.129Z [INFO]  generic: Visited screen: Home
+2024-07-10T14:32:37.434Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-07-10T14:32:39.274Z [INFO]  generic: Visited screen: MultiChainSecurity
+2024-07-10T14:32:41.036Z [INFO]  generic: Visited screen: DownloadApplicationLogs
