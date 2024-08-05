@@ -1,0 +1,6 @@
+[submodule "tree"]
+	path = tree
+	url = ssh://localhost:2222/tree
+[submodule "documents"]
+	path = documents
+	url = ssh://localhost:2222/tree
