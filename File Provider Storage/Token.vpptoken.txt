@@ -1,0 +1,147 @@
+Receive\d: from BY3PR18MB4673.namprd18.prod.outlook.com (2603:10b6:a03:3c4::20)
+ by IA2PR18MB5861.namprd18.prod.outlook.com with HTTPS; Sun, 30 Jun 2024
+ 07:02:29 +0000
+Received: from CH0PR03CA0207.namprd03.prod.outlook.com (2603:10b6:610:e4::32)
+ by BY3PR18MB4673.namprd18.prod.outlook.com (2603:10b6:a03:3c4::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7719.29; Sun, 30 Jun
+ 2024 07:02:27 +0000
+Received: from CH1PEPF0000AD82.namprd04.prod.outlook.com
+ (2603:10b6:610:e4:cafe::93) by CH0PR03CA0207.outlook.office365.com
+ (2603:10b6:610:e4::32) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7719.29 via Frontend
+ Transport; Sun, 30 Jun 2024 07:02:27 +0000
+Received: from us2-emailsignatures-cloud.codetwo.com (52.240.209.173) by
+ CH1PEPF0000AD82.mail.protection.outlook.com (10.167.244.91) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7741.18 via Frontend Transport; Sun, 30 Jun 2024 07:02:27 +0000
+Received: from NAM10-BN7-obe.outbound.protection.outlook.com (104.47.70.40) by us2-emailsignatures-cloud.codetwo.com with CodeTwo SMTP Server (TLS12) via SMTP; Sun, 30 Jun 2024 07:02:25 +0000
+Received: from MW5PR18MB5149.namprd18.prod.outlook.com (2603:10b6:303:1c7::13)
+ by BL1PR18MB4165.namprd18.prod.outlook.com (2603:10b6:208:310::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7719.29; Sun, 30 Jun
+ 2024 07:02:22 +0000
+Received: from MW5PR18MB5149.namprd18.prod.outlook.com
+ ([fe80::d355:ae9e:2b7:1579]) by MW5PR18MB5149.namprd18.prod.outlook.com
+ ([fe80::d355:ae9e:2b7:1579%4]) with mapi id 15.20.7698.024; Sun, 30 Jun 2024
+ 07:02:21 +0000
+From: Tim Henderson <contact@charleshendersonandhendfam.online>
+To: "Charles Henderson and HENDFAM, INC."
+	<tim@charleshendersonandhendfam.online>
+Subject:
+Thread-Index: AQHayrtzJEbZVUtEAUuw4KwaPg3Sug==
+Date: Sun, 30 Jun 2024 07:02:21 +0000
+Message-ID:
+	<D13CF1B0-85F0-437E-A31B-2A29133C3C25@charleshendersonandhendfam.online>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MW5PR18MB5149.namprd18.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	546afe3a-a675-4cde-3a92-08dc98d299e1
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+received-spf: Fail (protection.outlook.com: domain of
+ charleshendersonandhendfam.online does not designate 52.240.209.173 as
+ permitted sender) receiver=protection.outlook.com; client-ip=52.240.209.173;
+ helo=us2-emailsignatures-cloud.codetwo.com;
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	MXap4k0tPsfgBSllwTdUTIvFn4HGrJLzyBHRZ4Dy1L3Qwvcx2PNT/ysXKDQUxb0VZyNhEdESACGaS2h+xQPZ1B9pQ74d+ckom6yBUwyaJ1hLGYHA5m1GTzapBAT9ghGoZqqawHbDRjgl4JOXPU9zthq9JiwjqpAdmcgPXYJ59jJD6qvYq+lQO8W9JHYokTO13A0yYvedYs70ZJ64XUVXLA09xqFoXrWfc7gCBCo4Ji6sgcQ4VINTcB9XLkwJbhW+ZLNgmuH/133SWWCdWqWRMY1/8FVSlA0JFLkk2BX5DMbML9QayZrcfuN0EDAE/ouAIPzpcXz57pUerETfndzFm0SfLzhvKIYXY5P4QD6fsq5WNnboKKolZ7lw1wAq3d9wabn8yll9OtQmwp0g6BvZGsBNARrkHL1a4+tg3SIM6LmSJ2AHMhwBjXW9I+Af1zrFpWj0tJ+nJHtNzlzOGnLJwoqW+/dPUUiBApoQ5iQZSqDs/QJ0BGf8b35VkTmDkbNeeKiJPgd2OY35HsvpmMoYx8XHaPP2QXie/cvxdxgoTKbNatwLostTRMYBYxUVYT0tDqpcpTxoR6rxfdhMA0aCny0AbVtXDbiSQC8XKypU24qSC6a5jDAAvANj6HWi7EovDlWrE3+L+CbC30KG+yPOjcvfgg5kNa84Xm9gWNxAZqpw4Qq/oiTUzriirWbgFJDpI1cL76kXSK65w9PnnAaYdzlJGoitVWDUVrl0T6CwxiB9iXB1BKVgGk5+u4z/4lWQsZ0d+IkQkQ+oKA33JAYTArDTzyMKStt1KUj/JyaUgJrPKryKWAkLqJc55e4qiCdIQWHXuGQnPgl8JZFzktooZ1pns2b73l+qZwewFyc7nCEH8pIwdo4xcow1xw3dbQGsQbxsCYqBUqaCVZ2mpxQBD2IbXjTliCyCEeIGKMmIrns=
+Content-Type: multipart/mixed;
+	boundary="_004_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_"
+MIME-Version: 1.0
+
+--_004_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_
+Content-Type: multipart/alternative;
+	boundary="_000_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_"
+
+--_000_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+
+Sent from my iPhone
+
+--_000_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_
+Content-Type: text/html; charset="us-ascii"
+Content-ID:
+	<AF83A67906512644A68B1424B310BA4F@NETORGFT15819290.onmicrosoft.com>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body dir="auto">
+<div dir="ltr"><br>
+<br>
+</div>
+<div dir="ltr"></div>
+<br id="lineBreakAtBeginningOfSignature">
+<div dir="ltr">Sent from my iPhone</div>
+</body>
+</html>
+
+--_000_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_--
+
+--_004_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_
+Content-Type: application/octet-stream;
+	name="Charles_Henderson_and_HENDFAM,_INC.vpptoken 3.plist"
+Content-Description: Charles_Henderson_and_HENDFAM,_INC.vpptoken 3.plist
+Content-Disposition: attachment;
+	filename="Charles_Henderson_and_HENDFAM,_INC.vpptoken 3.plist"; size=1640;
+	creation-date="Sun, 30 Jun 2024 07:02:21 GMT";
+	modification-date="Sun, 30 Jun 2024 07:02:29 GMT"
+Content-ID:
+	<58233B70C65C5A408EBEBA3E379BAF80@NETORGFT15819290.onmicrosoft.com>
+Content-Transfer-Encoding: base64
+
+LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0NCk1JSURCekNDQWU4Q0FRQXdBREND
+QVNJd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFOWlANCndPUTdiK3ljdlpU
+ZEx4QklqUEZCM1NaYmxJbFllcnNoVCtIRTl2SjdER0JZVC85R1I5Wld5ZmFNNWV2NHpRSWwNCkxK
+ZjFaTnU2WEpMUVdDYSs1eC92SzdMMlZyY3hER1hiS1pXSnZvYVE4bnUxZTY4UTc0V1RCaEIyVG1L
+T00ydmcNClBVRGxlcDliNThiZHRYM2R1dE4zSDA5dHFlV3RQY2JtalZwSDRGMHROZkRXeXNzZEVD
+QkJEQVNHRG9rUThveGkNClJFUzd3NlErZ2FnL1BlbWl1amhMWmVBL21qb0REcjYxYzA3YXF5WHBJ
+YWRQaGtTNmgzN2RXcU9zMFdlYzBqaHcNCmpHR0pkTUhTbnRSamNwVHBsL0hValpnL081NjE5NUNW
+M1JVZ2lmNU55ZjJjR1hEc0swcHh0QXN1N2p5WERzLzINClRCaE96cWtyYmt4ZUdFbUNQSThDQXdF
+QUFhQ0J3VEFaQmdrcWhraUc5dzBCQ1FjeERBd0tUR2wyWlRGc2FXWmwNCklUQWpCZ2txaGtpRzl3
+MEJDUUl4RmhNVVNFVk9SRVpCVFNCUVFWSlVUa1ZTVXkxQlZGZ3dmd1lKS29aSWh2Y04NCkFRa09N
+WEl3Y0RBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRRnkyemxCMFdTYm9udUpI
+aisNCjZNRElrcmtWNHpBTEJnTlZIUThFQkFNQ0FRWXdFUVlKWUlaSUFZYjRRZ0VCQkFRREFnQUhN
+QjRHQ1dDR1NBR0cNCitFSUJEUVFSRmc5NFkyRWdZMlZ5ZEdsbWFXTmhkR1V3RFFZSktvWklodmNO
+QVFFT0JRQURnZ0VCQUNqZEp4dHINCnVObUFTR0hZdVNSRnppSGkzRldWemJON2hpNVo4Z3p2dUts
+RW1FTjdmSFhMRzkwZzMxYS9TMGJ2VWw5ODZBZVcNCnVHVmFJci9rNHZOSHNzRFd5Q1d1VVZRT1Y4
+ZXo5blhkaDhUY1ZNODBpVWRDaTBBZmxIcTVXWDRKZHMrdUVRQk0NCjdiaE9JY0ZtY2h1ZXdybFd6
+c21VbGs3b1hZL3FMc3dSYi8xVkk3TkZPMm1DSTMxdnF1MnhzL2ZsaDBId2FKMTENCm5zM1ZzeDVY
+UTI3bURtRUFBM0FaSU1rdm0zaUxYdkN3d05sRTlwNUFLY0dZUVgydTlTRWpoVkgrMHlSV3YvdG0N
+Ckl3ZzZCWXpUYnlVVU50OWNLYkFiNXA2RHVpZ0Q5eGlza0gzVHJXOE4xWGpaUGpDNmYyajMwT3BV
+TC9EM3ZuZXgNCmJyUUluT0l5bmJjY0U5WT0NCi0tLS0tRU5EIENFUlRJRklDQVRFIFJFUVVFU1Qt
+LS0tLQ0K
+
+--_004_D13CF1B085F0437EA31B2A29133C3C25charleshendersonandhend_--
+
+-----BEGIN CERTIFICATE-----
+MIIDGzCCAtugAwIBAgIJAL6pALeLZHDvMAkGByqGSM44BAMwIzEhMB8GA1UEAxMY
+VG9rZW4gU2lnbmluZyBQdWJsaWMgS2V5MB4XDTE2MDUwOTIwNDA1NVoXDTIxMDUw
+ODIwNDA1NVowIzEhMB8GA1UEAxMYVG9rZW4gU2lnbmluZyBQdWJsaWMgS2V5MIIB
+tzCCASwGByqGSM44BAEwggEfAoGBAKmnM6FKnJ1osHWBHd8jHFFMDNwygIcof9Ef
+HW6xJbU2uIzVV5WRu251RbRbmOqozesK44vkeBx9Ntl7PSu0W5RJFCEw9o4RLG0J
+40MWDNDQ+7iqvIsM6lsgZrDjNoWJ2t/Yrnnp0r3F9YNtj7J4vgLCYNOlkr2kcfGi
+ji+SXotXAhUAqGI2zlbARtjz+simu2PihUPkV1MCgYEAnrIIXPvjKvWiXd3uve7e
+DS8qRHW7yoAseVLgeEIbS4VSj/9iQqunx1weQGlds75CLZgpcrY4Z5wbkxSjnK1E
+V30qce4+VzgXYGLZIAvl78wbAMFrG0josXccAbmqVM4LX2Z5yu1TEpPZLvgiaV4g
+Jk4jsYhInqPm3Bw2qQ+gZokDgYQAAoGAFozcPQdM9MmszvEWMXuFrfEA8kVMnKIy
+A60paSi7CIecSAlsRLyw3D9J9pRW6HHdRZgOrKvnNcY63gKB56SKyj6r3nGqtkwE
+pu9yw1K+k2aSyJcKPHYVNw1Um5McKJgQJ49ShJFPaWXfDZPOCpgMpdzibnWjMcTa
+k5rz4FHSUtOjgZgwgZUwHQYDVR0OBBYEFKNT6lUDzQppxFhwtv/jkSCRx596MFMG
+A1UdIwRMMEqAFKNT6lUDzQppxFhwtv/jkSCRx596oSekJTAjMSEwHwYDVQQDExhU
+b2tlbiBTaWduaW5nIFB1YmxpYyBLZXmCCQC+qQC3i2Rw7zASBgNVHRMBAf8ECDAG
+AQH/AgEAMAsGA1UdDwQEAwIBxjAJBgcqhkjOOAQDAy8AMCwCFGjnp838qB/wTUdv
+oRt4G3aW0fv0AhRe8cZDdOveTDCbWane65nlVv0Udw==
+-----END CERTIFICATE-----
