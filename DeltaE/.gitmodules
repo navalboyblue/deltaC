@@ -1,0 +1,6 @@
+[submodule "deltaC"]
+	path = deltaC
+	url = https://github.com/navalboyblue/deltaC.git
+[submodule "DeltaE"]
+	path = DeltaE
+	url = git@github.com:navalboyblue/DeltaE.git
